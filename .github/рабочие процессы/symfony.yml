@@ -40,3 +40,4 @@ jobs:
       env:
         DATABASE_URL: sqlite:///%kernel.project_dir%/data/database.sqlite
       run: vendor/bin/phpunit
+- название: Build Ren'Py-based Visual Novel использует: Siege-Wizard/renpy-build@v1.2.0
